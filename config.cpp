@@ -335,7 +335,7 @@ class CfgPatches {
             author = "kenoxite";
             authors[] = {"kenoxite"};
             // url = "";
-            version = "1.0.4.2";
+            version = "1.0.5";
       };
 };
 
@@ -389,6 +389,17 @@ class CfgVehicles {
 
 
 #include "cfgGlasses.hpp"
+
+class CfgMarkers
+{
+    class flag_NATO {};
+    
+    class flag_CA2035PMC: flag_NATO
+    {
+        name = "PMC (Central Africa)";
+        icon = "\CA2035PMC\data\factionicons\icon_CA2035pmc_ca.paa";
+    };
+};
 
 class CfgGroups {
       class West
